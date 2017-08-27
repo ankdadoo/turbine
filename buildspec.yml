@@ -12,7 +12,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t turbine .
-      - docker tag eureka:latest 491590790276.dkr.ecr.us-west-2.amazonaws.com/turbine:latest      
+      - docker tag turbine:latest 491590790276.dkr.ecr.us-west-2.amazonaws.com/turbine:latest      
   post_build:
     commands:
       - echo Build completed on `date`
