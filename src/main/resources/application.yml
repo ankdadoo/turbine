@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka:8761/eureka/    
+      defaultZone: http://52.26.236.194:32776/eureka/    
   server:
     waitTimeInMsWhenSyncEmpty: 0
   instance:
